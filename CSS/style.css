@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+html {
+    font-family: 'Playfair Display', Georgia, serif;
+    text-transform: uppercase;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 1px solid #000000;
+    margin: 16px;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+header {
+    background-color: #A8A004;
+    color: #610FF5;
+    height: 100px;
+    width: 100%;
+}
+
+.navBar {
+    background-color: #A80E06;
+    color: #11F568;
+    height: 200px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+ul {}
+
+li {
+    display: inline-flex;
+    justify-content: space-around;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px black;
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+
+}
+
+li:active {
+    box-shadow: 0px 0px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: #11F568;
+}
+
+.focusArea {
+    height: 400px;
+    width: 76%;
+    display: block;
+    margin: 16px;
+}
+
+section {
+    display: flex;
+    height: 50%;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+article {
+    display: flex;
+    height: 50%;
+    background-color: #0CDAF5;
+    color: #F5720D;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+aside {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #00A8A5;
+    color: A8460F;
+    height: 400px;
+    width: 20%;
+    margin: 16px 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: #98F5B2;
+    color: #A80A0A;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 8px;
+    border-radius: 10px;
+}

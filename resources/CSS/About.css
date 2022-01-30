@@ -1,11 +1,3 @@
-/*
-LAYOUT COLORS:
-
-Main: #A82A0D hsl(11.2,85.6%,35.5%)
-Accent: #cff595 hsl(83.8,82.8%,77.3%)
-
-
-*/
 * {
     padding: 0;
     margin: 0;
@@ -19,6 +11,8 @@ html {
 body {
     width: 100vw;
     background-color: hsl(11.2,85.6%,25.5%);
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -47,17 +41,18 @@ header {
     font-size: 20vh;
 }
 
-header img {
+.container img {
     height: 400px;
     width: 400px;
     border-radius: 400px;
 }
 
+
 .navBar {
     height: 35vh;
     width: 3vw;
     opacity: 0.5;
-    color: 	hsl(0, 0%, 100%);
+    color: white;
     font-size: 1.2rem;
     font-weight: 700;
     border-radius: 5px;
@@ -108,18 +103,7 @@ header img {
     margin: 20px;
     transition: 600ms;
     justify-content: space-between;
-    color: 	hsl(0, 0%, 100%);
-}
-
-li {
-    display: inline-flex;
-    justify-content: space-around;
-    align-content: center;
-    border-radius: 10px;
-    height: 30px;
-    width: 130px;
-    margin: 20px;
-
+    color: white;
 }
 
 li:active {
@@ -133,113 +117,36 @@ li a {
     color: hsl(83.8,82.8%,67.3%);
 }
 
-.missionPanel {
-    height: auto;
-    width: 100vw;
-    display: block;
-    margin: 16px;
-}
-
-section {
-    height: 55vh;
-    width: 35vw;
+.container2 {
     display: flex;
-    flex-direction: column;
-    background-color: hsl(11.2,85.6%,25.5%);
-    color: hsl(83.8,82.8%,77.3%);
-    border-radius: 10px;
-    align-items: flex-start;
-    justify-content: space-around;
-    box-sizing: border-box;
-    padding: 2vh 5vw;
-    margin: 80px;
-}
-
-article {
-    display: flex;
-    height: 50%;
-    background-color: hsl(83.8,82.8%,77.3%);
-    color: hsl(11.2,85.6%,25.5%);
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-}
-
-.processPanel {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    justify-content: space-between;
-}
-
-.processPanel section {
-    display: flex;
-    width: 25vw;
-    height: 10vh;
+    width: 80vw;
+    height: 600px;
     justify-content: center;
     align-items: center;
+    align-content: center;
     align-self: center;
-    color: hsl(83.8,82.8%,77.3%);
-    background-color: hsl(11.2,85.6%,45.5%);
-    border-radius: 4px;
+
 }
 
-
-.processPanel ul {
+#logoGIF {
     display: flex;
-    flex-direction: row;
-    height: 30vh;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-}
-
-.processPanel li {
-    display: flex;
-    flex-direction: column;
-    height: 55vh;
-    width: 26vw;
-    justify-content: space-around;
-    align-items:center;
-    align-content:space-between;
-    padding: 16px 32px;
-    color: hsl(11.2,85.6%,35.5%);
-    background-color: hsl(83.8,82.8%,77.3%);
-    border: none;
-    box-shadow: 4px 4px hsl(83.8,82.8%,27.3%);
-    font-size: 1.20rem;
-}
-
-.processPanel li:hover {
-    background-color: hsl(11.2,85.6%,35.5%);
-    color: hsl(83.8,82.8%,77.3%);
-    transition: ease 400ms;
-}
-
-.buttonContact {
-    width: auto;
+    border-radius: 400px;
     justify-content: center;
-    align-content: center;
     align-items: center;
-    text-decoration: none;
-    padding: 16px 50px;
-    background-color: hsl(11.2,85.6%,15.5%);
-    color: hsl(83.8,82.8%,77.3%);
-    border-radius: 4px;
-    align-self: center;
-    cursor: pointer;
+    align-content: center;
+    width: 400px;
+    height: 400px;
 }
 
-.processPanel a {
-    display: flex;
+#profile {
+    height: 40vh;
     width: auto;
-    padding: 16px 50px;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: hsl(83.8,82.8%,77.3%);
+    border-radius: 20vh;
+    margin: 32px;
+}
+
+p {
+    color: hsl(83.8,82.8%,67.3%);
 }
 
 footer {
